@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <!-- <link rel="stylesheet" type="text/css" href="style.css">-->
+    <style>
+    
+    /*loader*/ 
+    
+ 
+
+#preloader{
+  position :absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  background: #4C51E0;
+pointer-events: none;
+animation: fadeout .5s linear forwards;
+animation-delay: 8.5s ;
+}
+@keyframes fadeout
+{
+  0%
+  {
+    opacity:1;
+
+  }
+  100% {
+    opacity:0;
+
+  }
+}
+
+.loader{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  background: #000;
+
+}
+
+.count{
+
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 18vw;
+color:rgb(255, 255, 255);
+font-weight: 800;
+
+width:600px;
+text-align: right ;
+}
+.welcome{
+  position :absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+color:  #4C51E0;
+}
+.moto{
+  position :absolute;
+  top:10;
+  left:0;
+  width:100%;
+  height:100vh;
+display: flex;
+justify-content:center;
+align-items: center;
+color:  #4C51E0;
+
+}
+.welcome h2{
+  margin: 0;
+  padding: 0;
+  font-size: 10vw;
+  font-family: 'Salsa', cursive;
+}
+.moto h3{
+  margin: 0;
+  padding-top: 180px;
+  font-family: 'Hanalei Fill', cursive;
+ 
+}
+.moto  span{
+  font-family: 'Hanalei Fill', cursive;
+  color: black;
+}
+    </style>
+</head>
+<body>
+  <div class="welcome">
+    <h2>WELCOME</h2><br>
+   >
+  </div>
+  <div class="moto">
+      <h3>Crash the <span>past</span>, Trim the <span>present</span> , Elevate the <span>future</span></h3>
+  </div>
+    <!--loader--> <section id="preloader">
+        <div class="loader"></div>  
+        <div class="count"></div>   
+   
+      </section>
+
+      <script src ="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function()
+      {
+        var count=0;
+        var counter = setInterval(function(){
+          if(count < 101){
+            $('.count').text(count + '%');
+            $('.loader').css('width',count + '%');
+            count++
+          }
+          else{
+            clearInterval(counter) 
+          }
+        },80)
+      })
+      </script>
+    
+</body>
+</html>

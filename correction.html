@@ -1,0 +1,943 @@
+<<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+		<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135184551-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-135184551-1');
+        </script>
+        <meta charset="utf-8">
+        <title>Aero Club Nitte</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="img/assets/favicon.png" rel="icon" type="image/png">
+        <link href="css/init.css" rel="stylesheet" type="text/css">
+        <link href="css/ion-icons.min.css" rel="stylesheet" type="text/css">
+        <link href="css/etline-icons.min.css" rel="stylesheet" type="text/css">
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
+        <link href="css/custom.css" rel="stylesheet" type="text/css">
+        <link href="css/colors/purple.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:400,100,200,300%7CHind:400,300" rel="stylesheet" type="text/css">
+        <style>
+                    #about{
+                    
+                        margin:0px;
+                        box-shadow:50px 100px;
+                        padding-left:22px;
+                        padding-right:22px;
+                        padding-top:150px;
+                        padding-bottom:200px;
+                    
+                    }
+                    #register{
+                         box-shadow: 10px 10px 5px grey;
+                    }
+                    .modal-body{
+                        text-align:center;
+                        	background: black;
+                    }
+                    
+                    .modal-title{
+                        	text-align: center;
+                        		font-size: 30px;
+                                 text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+                    }
+                 
+                    
+                    .container .row1{
+                            	text-align: center;
+                    }
+.container .row1 button{
+	font-size: 20px;
+	text-align: center;
+	background: #292121;
+  animation-name:colorchange;
+  animation-duration: 10s;
+	animation-iteration-count: 1000;
+	
+}
+@keyframes colorchange {
+  0%   {color: red;}
+  15%   {color: greenyellow;}
+	20%   {color: royalblue;}
+	23%   {color: springgreen;}
+	75%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+ 
+}
+    .dropbtn {
+  background-color: #4C51E0;
+  color: white;
+    margin: 4px 2px;
+  font-size: 12px;
+   padding:5px 10px 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+    cursor: pointer;
+  border-radius: 16px;
+  letter-spacing:1px;
+  
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+  z-index: 1;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {background-color: #4C51E0}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color:#4C51E0;
+}
+                   
+
+        </style>
+    </head>
+    <body data-fade-in="true">
+
+        <div class="pre-loader"><div></div></div>
+
+        <nav class="navbar nav-down" data-fullwidth="true" data-menu-style="transparent" data-animation="shrink">
+                                        <!-- Styles: light, dark, transparent, transparent-to-dark | Animation: hiding, shrink -->
+            <div class="container">
+
+                <div class="navbar-header">
+                    <div class="container">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar top-bar"></span>
+                            <span class="icon-bar middle-bar"></span>
+                            <span class="icon-bar bottom-bar"></span>
+                        </button>
+                        <a class="navbar-brand to-top" href="https://aeroclubnitte.in/index.html"><img src="img/assets/logo-light.png" class="logo-light.png" alt="#">
+                        <img src="img/assets/logo-dark.png" class="logo-dark" alt="#"></a>
+                    </div>
+                </div>
+                
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="container">
+                        <ul class="nav navbar-nav menu-right">
+
+                            <!-- Each section must have corresponding ID ( #hero -> id="hero" ) -->
+                            <li><a href="index.html">Home</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle">Team<i class="ion-ios-arrow-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="coreteam.html">Core Team</a></li>
+                                    <li><a href="subcoreteam.html">Sub-Core Team</a></li>
+                                </ul>
+                            </li>
+                            
+                            <li><a href="achievements.html">Achievements</a></li>
+                            <li><a href="sponsor.html">Sponsors</a></li>
+                            <li><a href="photo.html">Photo Gallery</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                             
+                            <li class="nav-separator"></li>
+                            <li  class="nav-icon"><a href="https://www.facebook.com/aeroclubnitte/" target="_blank"><ion-icon size="large" name="logo-facebook" title="Facebook"></ion-icon>
+</a></li>
+                            <li  class="nav-icon"><a href="https://www.instagram.com/aeroclubnitte/?hl=en" target="_blank"><ion-icon size="large" name="logo-instagram" ></ion-icon></a></li>
+                           <li  class="nav-icon"><a href="https://www.youtube.com/channel/UCOXsKNWO7ACSuCF-iiSw-9w" target="_blank"><ion-icon size="large" name="logo-youtube" ></ion-icon></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Header -->
+
+        <!-- Hero -->
+        <section id="hero" class="hero-fullscreen parallax" data-overlay-dark="7">
+            <slider>
+                 <slide>
+                    <img src="img/backgrounds/sae.jpeg.jpeg"height="101%" width="120%" alt="#">
+                </slide>
+                <slide>
+                        <img src="img/backgrounds/glidere.jpg" height="101%" width="120%" alt="#">
+                </slide>
+                <slide>
+                        <img src="img/backgrounds/quadere.png"height="101%" width="120%" alt="#">
+                </slide>
+                <slide>
+                    <img src="img/backgrounds/groupere.jpg"height="101%" width="120%" alt="#">
+                    </slide>
+                <slide>
+                    <img src="img/backgrounds/rc ere.jpg"height="101%" width="120%" alt="#">
+                </slide>
+               </slider>
+               
+            <div class="container">
+                <div class="row1">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register">
+                        CLICK HERE TO REGISTER!
+                    </button>
+                </div>
+                <div class="row">
+
+                    <div class="hero-content-slider mt20" data-autoplay="true" data-speed="4000">
+                        
+                          <div>
+                            <h1><strong>AERO CLUB NITTE</strong><br><B>SAE</B> ALL INDIA RANK <b>5</b></h1>
+                          
+                           <a href="achievements.html" class="btn btn-lg btn-primary btn-scroll">Our Achievements</a>
+                        </div>
+                        <div>
+                            <h1><strong>AERO CLUB NITTE</strong><br>Welcomes You</h1>
+                           
+                            <a href="#about" class="btn btn-lg btn-primary btn-scroll">About Us</a>
+                        </div>
+                                    
+                        
+                        <div>
+                            <h1><strong>AERO CLUB NITTE</strong><br>Meet our backbone</h1>
+                          
+                            <a href="#team" class="btn btn-lg btn-primary btn-scroll">Our mentors</a>
+                        </div>
+                    
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        <!-- End Hero -->
+        
+         <section id="fun-facts" data-animate="true">
+            <div class="container-fluid">
+                <div class="row"> </div>
+            </div>
+        </section>
+      
+       
+           <!-- About us -->
+           <section id="about"  data-overlay-dark="6"  class="parallax pt100 pb90" >
+            <div class="background-image">
+                <img src="img/backgrounds/about_us.jpeg" alt="#">
+            </div>
+           <div class="container">
+                <div class="row vertical-align">
+                      <div class="col-md-12 text-left-justify">
+
+                    <div class="col-md-12 pr30 mt40 mb40">
+                    
+                       <center> <h2><br><strong> About Us<br></strong></h2>  </center>
+                    </div>
+
+                 
+
+                   
+                       
+                            <!-- Testimonial One -->
+                            <div>
+                                <p>
+                                    <center>
+                                       <h4><br>Aero Club Nitte is a technological club based in NMAMIT, Nitte.
+                                       Sailing into its eighth year, the club has excelled in various technical domains.
+                                       Flying high like a falcon it has spread its wings in the field of Avionics, Aerodynamics, Robotics, 
+                                       Internet Vision Technology and Software Development. </h4>
+                                    </center>
+                                </p>
+                               
+                            </div>
+                            <!-- Testimonial Two -->
+                            <div></div>
+                            </div>
+                           
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+      
+
+       
+
+       <!-- Who We Are -->
+        <section id="who-we-are"  data-overlay-dark="8" class="parallax pt100 pb90">
+            <div class="background-image">
+                <img src="img/backgrounds/bg-2.jpg" alt="#">
+            </div>
+            <div class="container">
+                <div class="row vertical-align">
+                      <div class="col-md-12 text-left-justify">
+
+                    <div class="col-md-7 pr30 mt40 mb40">
+                        <h2><strong>Our Vision</strong><br></h2>
+                        <p><h4> To create dynamic and exciting campus life environment that builds community, introduces students to new technical experiences as well as challenges and supports students to become active global citizens.</h4></p>
+                       <br> <h2><strong>Our Mission</span></strong></h2>
+                          <p><h4>To encourage students to execute their innovative ideas through technical clubs, by creating an ecosystem which will be functional round the clock and managed fully by students under the mentorship of both internal and external resource persons.</h4> </p>
+                       </div>
+                    </div>
+
+                </div>
+        
+        </section>
+        <!-- End Who We Are -->
+        <!-- Team -->
+        <section id="team" class="hero-fullscreen2 pt100 pb90">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+                        <h2>Our Pillars of <strong>Support</strong></h2>
+                        <p class="lead"> <span class="color"></span></p>
+                    </div>
+
+                    <div class="team-slider owl-carousel dark-pagination col-md-12">
+                        <div class="team">
+                            <div class="team-container">
+                                <div class="team-image">
+                                    <img src="img/blog/guru.jpeg.jpeg" class="img-responsive" alt="#" />
+                                </div>
+                                <div class="team-caption">
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                 <li class="social-icon"><a href="https://www.facebook.com/gururaj.upadhyaya.5" target="_blank"><ion-icon size="small" name="logo-facebook"></ion-icon></a></li><li class="social-icon"><a href="https://in.linkedin.com/in/gururaj-upadhyaya-24b24515" target="_blank"><ion-icon size="small" name="logo-linkedin"></ion-icon></a></li>
+                                               </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Faculty Co-ordinator</h6>
+                            <h5>Dr.Gururaj Upadhayaya</h5>
+                            <p>Associate Professor <br> Department of Mechanical Enginnering <br> NMAMIT NITTE.</p>
+                            
+                        </div>
+                        <div class="team">
+                            <div class="team-container">
+                                <div class="team-image">
+                                    <img src="img/blog/ananth2.jpeg" class="img-responsive" alt="#" />
+                                </div>
+                                <div class="team-caption">
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li class="social-icon"><a href="https://www.facebook.com/ananth.vishu?epa=SEARCH_BOX" target="_blank"><ion-icon size="small" name="logo-facebook"></ion-icon></a></li>  
+                                       			<li class="social-icon"><a href="https://www.instagram.com/ananth_vishu/?hl=en" target="_blank"><ion-icon size="small" name="logo-instagram" ></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://in.linkedin.com/in/ananth-vishu-83995583" target="_blank"><ion-icon size="small" name="logo-linkedin"></ion-icon></a></li>
+                                            
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Mentor</h6>
+                            <h5>Ananth Erasappa</h5>
+                            <p>Senior Executive Flight Trials<br> TATA Advance Systems.</p>
+                        </div>
+                        <div class="team">
+                            <div class="team-container">
+                                <div class="team-image">
+                                    <img src="img/blog/goutham.jpeg" class="img-responsive" alt="#" />
+                                </div>
+                                <div class="team-caption">
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li class="social-icon"><a href="https://www.facebook.com/Naik.Goutam96" target="_blank"><ion-icon size="small" name="logo-facebook"></ion-icon></a></li>
+                                            
+                                                <li class="social-icon"><a href="https://www.instagram.com/naik_goutam/?hl=en" target="_blank"><ion-icon size="small" name="logo-instagram" ></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://in.linkedin.com/in/naikgoutam?trk=org-employees_mini-profile_title" target="_blank"><ion-icon size="small" name="logo-linkedin"></ion-icon></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Mentor</h6>
+                            <h5>Goutam Naik</h5>
+                            <p>CEO<br>Airmydus Innovations Pvt. Ltd.</p>
+                        </div>
+                        <div class="team">
+                            <div class="team-container">
+                                <div class="team-image">
+                                    <img src="img/blog/kartik.jpeg" class="img-responsive" alt="#" />
+                                </div>
+                                <div class="team-caption">
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li class="social-icon"><a href="https://www.facebook.com/karthik.brao.39?epa=SEARCH_BOX" target="_blank"><ion-icon size="small" name="logo-facebook"></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://twitter.com/Karthik_Rao_B" target="_blank"><ion-icon size="small" name="logo-twitter"></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://www.instagram.com/rao_karthik_b/?hl=en" target="_blank"><ion-icon size="small" name="logo-instagram" ></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://in.linkedin.com/in/karthik-b-8ba1ab127?trk=org-employees_mini-profile_title" target="_blank"><ion-icon size="small" name="logo-linkedin"></ion-icon></a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Mentor</h6>
+                            <h5>Karthik B</h5>
+                            <p>COO<br> Airmydus Innovations Pvt. Ltd.</p>
+                        </div>
+                        <div class="team">
+                            <div class="team-container">
+                                <div class="team-image">
+                                    <img src="img/blog/shreesha2.jpeg" class="img-responsive" alt="#" />
+                                </div>
+                                <div class="team-caption">
+                                    <div>
+                                        <div>
+                                            <ul>
+                                                <li class="social-icon"><a href="https://www.facebook.com/ShreeShaks1995" target="_blank"><ion-icon size="small" name="logo-facebook"></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://twitter.com/shreeshaks76" target="_blank"><ion-icon size="small" name="logo-twitter"></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://www.instagram.com/shree_gowdaa/?hl=en" target="_blank"><ion-icon size="small" name="logo-instagram" ></ion-icon></a></li>
+                                                <li class="social-icon"><a href="https://in.linkedin.com/in/shreesha-ks-757a1712a?trk=org-employees_mini-profile_title" target="_blank"><ion-icon size="small" name="logo-linkedin"></ion-icon></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6>Mentor</h6>
+                            <h5>Shreesha K S</h5>
+                            <p>CFO and HR Manager <br>Airmydus Innovations Pvt. Ltd.</p>
+                        </div>
+                      
+                      </div>
+                      </div>
+                      </div>
+                      </section>  
+
+        
+       
+        <!-- End Team -->
+
+        <!-- Video Section -->
+        <section class="parallax pt40 pb40" data-overlay-light="9">
+            
+            <div class="container">
+                <div class="row vertical-align">
+
+                    <div class="col-md-6 pr30 mt40 mb40">
+                        <h2><strong></strong><br>To INFINITY and BEYOND!</h2>
+                        <p>We are expanding our social outreach. Catch out our latest updates here.</p>
+                        <p>"An engineer is the one who uses the power of science to make life better for people, to reduce cost and to improve productivity...!" 
+
+                            We at team AERO CLUB NITTE have been working on reaching out to new dimensions. Presentating to you a glimpse of our amazing work. It just doesn't stop here, stay tuned for more....!  </p>
+                        <p>Hit the button and do like, Share and Subscribe!</p>
+                    </div>
+
+                    <div class="col-md-6 mt50 mb50">
+                        <div class="video-container">
+                            <img src="img/video/utube.jpeg.png" />
+                            <iframe data-video-embed="https://www.youtube.com/embed/69K4ASfNzug"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="https://www.youtube.com/channel/UCOXsKNWO7ACSuCF-iiSw-9w" target="_blank" class="btn btn-lg  btn-dark">Subscribe Us</a>
+              
+            </div>
+          
+        </section>
+        <!-- End Video Section -->
+
+        <!-- Fun Facts -->
+         <!-- Fun Facts -->
+         <section id="fun-facts" data-animate="true">
+      
+        </section>      <div class="container-fluid">
+                <div class="row">
+
+
+                </div>
+            </div>
+        <section id="fun-facts" data-animate="true">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                </div>
+            </div>
+        </section>
+        <!-- End Fun Facts -->
+        
+        
+        <!-- Quotes -->
+        <section id="quotes" class="parallax pt100 pb90" data-overlay-dark="8">
+            <div class="background-image">
+                <img src="img/backgrounds/bg-4.jpg" alt="#">
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="quote-slider navigation-thin container white text-center" data-autoplay="true" data-speed="2000">
+                            <div>
+                                <h2>
+                                    <i class="vossen-quote color"></i>
+                                       Crash the <strong>Past</strong><br>Trim the <strong>Present</strong><br>Elevate the <strong>Future</strong><br>
+                                    <i class="vossen-quote color"></i>
+                                </h2>
+                        
+                            </div>
+                            <div>
+                                <h2>
+                                    <i class="vossen-quote color"></i>
+                                       "If it's <strong>'bout skies</strong> <br>then its always <strong>'bout us"</strong>
+                                    <i class="vossen-quote color"></i>
+                                </h2>
+                            </div>
+                            <div>
+                                <h2>
+                                    <i class="vossen-quote color"></i>
+                                       If there is a team to play against <strong>gravity</strong></gravity> then it is <br><strong>AERO CLUB </strong>
+                                    <i class="vossen-quote color"></i>
+                                </h2>
+                               
+                            </div>
+                            <div>
+                                <h2>
+                                    <i class="vossen-quote color"></i>
+                                    <strong> Science</strong> is about knowing, <br><strong> Engineering</strong> is about doing ,<br><strong> Aero Club </strong>is about flying
+                                    <i class="vossen-quote color"></i>
+                                </h2>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Quotes -->
+
+        <!-- Services -->
+        <section id="services" class="pt100 pb90">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 text-center pb20">
+                        <h2 class=""><strong>Our Works</strong></h2>
+                        <p class="lead">Dream Bigger , Do Bigger!</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-telescope size-3x color"></i>
+                        <i class="icon-telescope back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>Workshops</strong></h4>
+                            <p><li>Basic Aeromodelling</li>
+                                <li>RC workshop</li>
+                                <li>Quadcopter</li>
+                                <li>Astronomy Camp</li>
+                           </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-circle-compass size-3x color"></i>
+                        <i class="icon-circle-compass back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>Avionics & Aeronautics</strong></h4>
+                            <p> <li>Electronic Speed Controller</li>
+                                <li>Wireless Battery Charger </li>
+                                <li>Fixed UAV for high lift and payload carry</li>
+                                <li>Stable airplane design and configuration</li></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-genius size-3x color"></i>
+                        <i class="icon-genius back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>Artificial Intelligence</strong></h4>
+                            <p> 
+                                    <li>Object Detection </li>
+                                    <li>Facial Recognition Attendance System </li>
+                                   <br><br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-layers size-3x color"></i>
+                        <i class="icon-layers back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>NAIN projects</strong></h4>
+                            <p> <li>High Altitude Aeronautical Platform Station (HAAPS)</li>
+                               
+                                <li>Unmanned Aerial Crop Health Monitoring</li>
+                                <li>Aerial Crop Yield Estimation</li>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-gears size-3x color"></i>
+                        <i class="icon-gears back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>Robotics</strong></h4>
+                            <p> <li>Retractable Landing Gears</li>
+                                <li>Laser Cutting </li>
+                                <li>Thrust Weight Rig</li>
+                                <li>Gravity feed hot wire mechanism</li>
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 feature-left">
+                        <i class="icon-globe size-3x color"></i>
+                        <i class="icon-globe back-icon"></i>
+                        <div class="feature-left-content">
+                            <h4><strong>IVT</strong></h4>
+                            <p> 
+                                  
+                                    <li>Ardunio Based Servo Checker</li>
+                                <li>Home Automation</li>
+                                <li>Barcode Sign Board</li>
+                                <li>Control Scrolling Board</li></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 pb70 text-center">
+                            <h4 class="bold mb20"></h4>
+                            
+                            <a href="photo.html" class="btn btn-md btn-ghost">View our Gallery for more</a>
+                          
+                        </div>
+    
+
+                </div>
+            </div>
+            
+					
+        </section>
+        <!-- End Services -->
+
+        <section id="fun-facts" data-animate="true">
+            <div class="container-fluid">
+                <div class="row"> </div>
+            </div></section>
+
+
+        
+        <!-- Callout -->
+        
+        <section id="fun-facts" data-animate="true">
+                <div class="container-fluid">
+                    <div class="row"> </div>
+                </div></section>
+             
+            
+    
+        <section class="parallax light bg-img-2" data-overlay-light="6">
+            <div class="background-image">
+                    <img src="img/backgrounds/bg-7 (2).png" alt="#" width="100px">
+            </div>
+
+               
+            <section id="fun-facts" data-animate="true">
+                    <div class="container-fluid">
+                        <div class="row"> </div>
+                    </div></section>
+        
+            <div class="container pt100 pb100">
+                <div class="row pt20">
+
+                    <div class="col-md-12 text-center">
+                        <h2>Ready to be part of our <span class="bold" >AERO Family </span></h2>
+                        <h4><strong>Use AERO CLUB NITTE App to be in touch with us</strong></h4>
+
+                        <section id="fun-facts" data-animate="true">
+                            <div class="container-fluid">
+                                <div class="row"> </div>
+                            </div></section>
+                
+                        <a href="https://play.google.com/store/apps/details?id=com.aero.app_club" target="_blank" class="btn btn-md btn-primary btn-appear mt30"><span> Download Now </span></a>
+                    </div>
+
+                    <section id="fun-facts" data-animate="true">
+                        <div class="container-fluid">
+                            <div class="row">
+                     <section id="fun-facts" data-animate="true">
+                        <div class="container-fluid">
+                          <div class="row"> </div>
+                         </div></section>
+                         <section id="fun-facts" data-animate="true">
+                                <div class="container-fluid">
+                                  <div class="row"> </div>
+                                 </div></section>
+                    
+            
+                            </div>
+                        </div>
+                    </section>
+            
+             </div>
+            </div>
+        </section>
+         
+        <section id="fun-facts" data-animate="true">
+            <div class="container-fluid">
+                <div class="row"> </div>
+            </div></section>
+
+        <!-- End Callout -->
+        <section id="fun-facts" data-animate="true">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                </div>
+            </div>
+        </section>
+
+ 
+            <!-- Get Connected -->
+        <section class="parallax pt100 pb100" data-overlay-dark="6">
+            <div class="background-image">
+                <img src="img/blog/follow.jpg" alt="#">
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-12 mr-auto text-center">
+                        <h2><strong>Follow Us</strong></h2>
+                        <p><h4>Get connected with us on social networks!</h4></p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <ul class="connected-icons social-icons">
+
+
+                            <li class="connected-icon">
+                                <a target="_blank" href="https://www.facebook.com/aeroclubnitte/">
+                                    <ion-icon size="small" name="logo-facebook"></ion-icon>
+                                    <h5>Facebook</h5>
+                                    <p>Be Our Friend</p>
+                                </a>
+                            </li>
+
+                            <li class="connected-icon">
+                                <a target="_blank" href="https://www.youtube.com/channel/UCOXsKNWO7ACSuCF-iiSw-9w">
+                                    <ion-icon size="small" name="logo-youtube"></ion-icon>
+                                    <h5>Youtube</h5>
+                                    <p>Watch Our Videos</p>
+                                </a>
+                            </li>
+
+                            <li class="connected-icon">
+                                <a target="_blank" href="https://www.instagram.com/aeroclubnitte/?hl=en">
+                                    <ion-icon size="large" name="logo-instagram" ></ion-icon>
+                                    <h5>Instagram</h5>
+                                    <p>See Our Pictures</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Get Connected -->
+
+      
+
+     
+        <!-- Contact Form -->
+  
+			<div class="container">
+                           <div class="row">
+                   
+                            
+                   
+                                <div class="col-md-8 col-md-offset-2 contact box-style">
+                                
+                                 
+                                 
+                                  <div class="main">
+                                      <div class="info"> <h2>Get In Touch<br><strong>Contact Us</strong></h2>
+                                     <p class="lead">We would like to <span class="color">hear from you</span></p>
+                                     </div>
+                                   
+                                  <form action="index_mail_handler.php" method="post" name="form" class="form-box">
+			
+			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+		
+			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+		
+			<input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
+		
+			<textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+			
+		
+			 <input type="submit"  name="submit" value="Send Message" id="submit" class="submit btn btn-lg btn-primary">
+                                       
+                                   </form>
+                              
+                            </div>
+                           </div>
+                       </div>
+                    </div>
+                   <!-- End Contact Form --></h1>
+            </div>
+        </div>
+    </section>
+        <!-- End Contact Form -->
+
+        <!-- Map -->
+        <section class="vossen-map">
+            <!-- Paste your map iframe here -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.2636255080592!2d74.93162601414966!3d13.183272238874318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcabeddd315d07%3A0xf31581cfa9499131!2sAERO+CLUB+NITTE!5e0!3m2!1sen!2sin!4v1561979563159!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <!-- End Map -->
+<!-- Start Footer -->
+<footer id="footer" class="footer style-1 dark">
+
+    <a ><img src="img/assets/footer-logo.png" alt="#" class="mr-auto img-responsive"></a>
+    <ul>
+        <li><a href="https://www.instagram.com/aeroclubnitte/?hl=en/" target="_blank" class="color"><ion-icon size="large" name="logo-instagram"></ion-icon></li>
+        <li><a href="https://www.facebook.com/aeroclubnitte/" target="_blank" class="color"><ion-icon size="large" name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://co.linkedin.com/company/aero-club-nitte" target="_blank" class="color"><ion-icon size="large" name="logo-linkedin"></ion-icon></a></li>
+       <li><a href="https://www.youtube.com/channel/UCOXsKNWO7ACSuCF-iiSw-9w" target="_blank" class="color"><ion-icon size="large" name="logo-youtube"></ion-icon></a></li>
+ 
+    </ul>
+    
+     <ul class="footer-content">
+                                <li data-animation-child class="text-light-gray slide-up delay-1" data-animation="slide-up">
+                                    aeroclubnitte@gmail.com
+                                </li><br>
+                                <li data-animation-child class="text-light-gray slide-up delay-2" data-animation="slide-up">
+                                    +91 6362468208
+                                </li><br>
+                                <li data-animation-child class="text-light-gray slide-up delay-3" data-animation="slide-up">
+                                    Aeroclub Nitte NMAMIT, Karkala, Udupi DST, Karnataka, India.
+                                </li><br>
+                            </ul>
+        <!-- Subscription Form -->
+        <section class="bg-black pt110 pb100">
+				<div class="container">
+					<div class="row vertical-align">
+	
+						<div class="col-md-5">
+
+                                           
+                                           
+							<h4><p style="color:#ffff"><strong>Subscribe to Our Weekly Newsletter</strong></p></h4>
+						</div>
+	
+						<div class="col-md-7 mt0">
+							<div class="subscription">
+								<div class="input-group">
+									 <form action="index_newsletter.php" method="post" name="form" class="form-box">
+									
+										<div class="form-group subscribe-form-input">
+										<span class="input-group-btn subscribe-top">
+												<input type="email" name="email" class="inp" placeholder="Enter Email" required><br>
+											</span>
+											<span class="input-group-btn sign-btn">
+											    
+											     <button input type="submit"  name="submit" value="Sign In" id="submit"  class="subscribe-form-submit btn btn-primary"  data-loading-text="Loading...">Sign Up</button>
+								
+											</span>
+										</div>
+									</form>
+								</div>
+							</div>
+						
+						</div>
+	
+					</div>
+				</div>
+			</section>
+<!-- Subscription Form -->
+
+    <a><strong>AERO CLUB NITTE © 2019</strong></a>
+
+
+    <!-- Back To Top Button -->
+    <span><a class="scroll-top"><ion-icon name="navigate"></ion-icon></a></span>
+
+</footer>
+        <!-- End Footer -->
+    	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/scripts.js"></script>
+        
+        <!--Registeration link-->
+        <div class="modal" id="register" tabindex="-1" role="dialog" aria-labelledby="register" aria-hidden="true">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"id="register" ><b>REGISTRATION</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          
+                 <p><b>How about taking a short break before the Exams and getting yourself skilled up?? 
+
+This festive season lets make it a technical feast as AthrV-Ed - presents to you the Episode 2 of  Open Workshop Series, a series of 6 technical workshops.
+
+The world is advancing are you?? 
+
+This is your chance to make it happen. Join us for!.</b></p>
+<div class="dropup">
+  <button class="dropbtn">REGISTER TO <B>ATHRV-ED WORKSHOP</B> EPISODE II</button>
+  <div class="dropup-content">
+    <a href=" https://forms.gle/hPC1UdQDodVMJh7c6 "target="_blank">Register to Artifical Intelligence!</a>
+     <a href=" https://forms.gle/tKFzYunWDEK5JkkA7 "target="_blank">Register to Web Development!</a>
+        <a href=" https://forms.gle/3zULgu2MDn1FwhqX6 "target="_blank">Register to App Development!</a>
+           <a href=" https://forms.gle/sthDRQCCJ8u7w5cc7 "target="_blank">Register to Code on Python!</a>
+              <a href=" https://forms.gle/XANkTTEsti4qLpL57 "target="_blank">Register to Internet Of Things!</a>
+                 <a href=" https://forms.gle/ss1JuGYM1ZVJS7Yb7 "target="_blank">Register to Product Design and Animation!</a>
+  </div>
+</div>
+
+        
+
+   
+                
+        <br><br>
+             
+              <p><b>Wanna a upskill your skills and make the best use of your time...? Presenting to you the in-campus micro student start-up <em>Athrv-Ed</em>, where you will get a corporate level expirience along with educating you with the latest of modern tech. From projects to products, trainings to internships, mentorship to industry connect you get it all. 
+
+Why just dream when you can be the change that you always wanted to see.. !</b></p>
+        
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSc3-FFw0YNZ9zrnHA-UtBSkSPlae4Sewre9LMn7SltxzaI45g/viewform" target="_blank"><button type="button" class="btn btn-primary" style="margin-left:20px;" >Register to be Core member of ATHRV-ED</button></a>
+        <br><br>
+             
+      </div>
+      <div class="modal-footer">
+          <p>For More Information <a href="contactus.html" style="color:blue;">Contact Us</a></p>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+  </div>
+</div>
+
+      </div>
+    </div>
+    </body>
+
+
+</html>
